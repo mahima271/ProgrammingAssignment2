@@ -1,5 +1,4 @@
-## Put comments here that give an overall description of what your
-## functions do
+
 
 ## Write a short comment describing this function
 ## Write a short comment describing this function	# Caching Function for a Matrix, this function returns a
@@ -25,11 +24,11 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+
 # Computes the Matrix inverse of an invertible matrix. 
 # First checks to see if a previously computed Matrix
 # Inverse already exists in Cache,
-# if so fetches from Cache; else the Matrix
+# if it does, fetch from Cache; else the Matrix
 # Inverse is computed and stored in Cache. 
 
 
